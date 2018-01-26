@@ -1,0 +1,308 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="ja">
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+
+<meta name="keywords" content="キーワード1,キーワード2,キーワード3">
+<meta name="description" content="このページに関する簡単な説明。">
+
+<link rel="stylesheet" type="text/css" href="css/style.css">
+
+<link rel="stylesheet" type="text/css" href="css/button.css">
+
+<title>GOGO呉服町</title>
+<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+</head>
+<body>
+<!-- コンテナ開始 -->
+<div id="container">
+
+<!-- ページ開始 -->
+<div id="page">
+
+<!-- ヘッダ開始 -->
+<div id="header">
+
+<p class="siteTitle"><strong><a href="index.html"><img src="head/glogo3.png" width="100%" alt="GOGO呉服町"></a></strong></p>
+
+
+<!--<ul class="nl clearFix">
+<li><a href="index.html">ホーム <span class="en">Home</span></a></li>
+<li class="active"><a href="shop.html">各店情報 <span class="en">Shop</span></a></li>
+<li><a href="map.html">マップ <span class="en">Map</span></a></li>
+</ul>
+
+<ol class="topicPath">
+<li><a href="index.html">ホーム</a></li>
+<li>各店情報</li>
+</ol>-->
+
+<hr class="none">
+
+</div>
+<!-- ヘッダ終了 -->
+
+<!-- GPS取得アラート -->
+<script>
+///端末GPS情報の取得（geolocation API）
+// 対応している場合
+if( navigator.geolocation ){
+    // 現在位置を取得できる場合の処理
+    alert("あなたの端末では、現在位置を取得することができます。");
+}
+// Geolocation APIに対応していない
+else{
+    // 現在位置を取得できない場合の処理
+	alert("あなたの端末では、現在位置を取得できません。");
+}
+</script>
+<!-- 終了 -->
+
+<!-- コンテンツ開始 -->
+<div id="content">
+
+
+<!-- メインカラム開始 -->
+<div id="main">
+
+<!--<div class="pageTitle">
+<h1>各店情報</h1>
+</div>-->
+
+<div class="section normal" id="noteSection">
+
+
+<div class="heading">
+<h2>ジャンルでお店を探す</h2>
+</div>
+<div id="menu_box">
+  <ul class="menu">
+   <li class="drop_6row"><a href="javascript:void(0);">ファッション</a>
+      <ul>
+        <li><a href="a3.html">アシックスウォーキング静岡</a></li>
+        <!--<li><a href="a13.html">almerfeel(エメフィール)静岡呉服町店</a></li>
+        <li><a href="s2.html">THE SUIT COMPANY(ザ・スーツカンパニー)静岡店</a></li>-->
+        <li><a href="s1.html">SANADAYA</a></li>
+        <li><a href="t4.html">tutuanna*(チュチュアンナ)静岡店</a></li>
+        <li><a href="t12.html">鳥居帽子店</a></li>
+        <li><a href="y3.html">ユキベルファム　静岡店</a></li>
+        <!--<li><a href="r1.html">La ZEN</a></li>-->
+        <li><a href="r3.html">リブm</a></li>
+        <!--<li><a href="r4.html">ローザリーハウス呉服町店</a></li>-->
+      </ul>
+   </li>
+   <li class="drop_1row"><a href="javascript:void(0);">和装</a>
+      <ul>
+        <li><a href="k2.html">河内屋</a></li>
+      </ul>
+   </li>
+   <li class="drop_7row"><a href="javascript:void(0);">宝石・時計</a>
+      <ul>
+        <li><a href="a1.html">アイプリモ静岡店</a></li>
+        <li><a href="a5.html">アンジェリック　フォセッテ静岡店</a></li>
+        <li><a href="a6.html">安心堂静岡本店</a></li>
+        <!--<li><a href="a8.html">安心堂ブライダル　ミュゼ</a></li>-->
+        <li><a href="t2.html">タカラ堂</a></li>
+        <li><a href="t7.html">TIARA　by lucir-K</a></li>
+        <li><a href="t10.html">時計・宝石　海　野</a></li>
+        <li><a href="r2.html">Lien　リアン</a></li>
+      </ul>
+   </li>
+   <li class="drop_3row"><a href="javascript:void(0);">メガネ</a>
+      <ul>
+        <li><a href="a4.html">AJOC疋野本店</a></li>
+        <li><a href="m7.html">メガネの春田　呉服町店</a></li>
+        <li><a href="a7.html">安心堂静岡メガネ店</a></li>
+      </ul>
+   </li>
+   <li class="drop_1row"><a href="javascript:void(0);">カバン</a>
+      <ul>
+        <li><a href="a10.html">池田屋静岡店</a></li>
+      </ul>
+   </li>
+   <li class="drop_16row"><a href="javascript:void(0);">飲食店</a>
+      <ul>
+        <li><a href="a11.html">IL　TAVORO(イルターボロ)</a></li>
+        <li><a href="a15.html">インドカレーハウス　チャイ　静岡店</a></li>
+        <li><a href="k11.html">KEY'S　CAFÉ　静岡呉服町店</a></li>
+        <li><a href="k6.html">餃子の王将　静岡呉服町店</a></li>
+        <li><a href="k8.html">串カツ田中呉服町通り店</a></li>
+        <li><a href="s3.html">猿Cafe&bar静岡呉服町店</a></li>
+        <li><a href="s8.html">しゃぶ禅</a></li>
+        <li><a href="s9.html">スターバックスコーヒー　TSUTAYAすみや静岡本店店</a></li>
+        <li><a href="t9.html">戸隠そば　呉服町東店</a></li>
+        <li><a href="t11.html">ドトールコーヒーショップ　静岡呉服町2丁目店</a></li>
+        <li><a href="n1.html">ニパチ　静岡呉服町店</a></li>
+        <!--<li><a href="h1.html">バーガーキング　静岡呉服町店</a></li>-->
+        <li><a href="h4.html">萬屋(ばんや)　×ほのか静岡店</a></li>
+        <li><a href="h6.html">fu-cha フーチャ</a></li>
+        <li><a href="h10.html">PELLICANO　ペリカーノ</a></li>
+        <li><a href="m1.html">マクドナルド　静岡呉服町店</a></li>
+        <li><a href="m4.html">丸亀製麺</a></li>
+      </ul>
+   </li>
+   <li class="drop_2row"><a href="javascript:void(0);">食品関連</a>
+      <ul>
+        <li><a href="t3.html">竹茗堂</a></li>
+        <li><a href="m3.html">マルカイ　呉服町店</a></li>
+      </ul>
+   </li>
+   <li class="drop_8row"><a href="javascript:void(0);">生活雑貨</a>
+      <ul>
+        <li><a href="k3.html">菊秀刃物店</a></li>
+        <li><a href="k7.html">GOUTAS by Lemon</a></li>
+        <li><a href="t13.html">トレハン</a></li>
+        <li><a href="h3.html">PASA　パシャ</a></li>
+        <li><a href="m2.html">ますたけ</a></li>
+        <li><a href="m5.html">三保原屋</a></li>
+        <li><a href="y2.html">YAWATAYA</a></li>
+        <li><a href="w2.html">私の部屋</a></li>
+      </ul>
+   </li>
+   <li class="drop_4row"><a href="javascript:void(0);">コスメ・アロマ</a>
+      <ul>
+        <li><a href="a9.html">アンビエンテ</a></li>
+        <li><a href="t5.html">DHC直営店</a></li>
+        <li><a href="h7.html">ふしみや呉服町本店</a></li>
+        <li><a href="r5.html">LUSH　静岡店　(ラッシュ)</a></li>
+      </ul>
+   </li>
+   <!--<li class="drop_1row"><a href="javascript:void(0);">デパート</a>
+      <ul>
+        <li><a href="s5.html">静岡伊勢丹</a></li>
+      </ul>
+   </li>-->
+   <li class="drop_2row"><a href="javascript:void(0);">音楽・楽器</a>
+      <ul>
+        <li><a href="s10.html">すみやグッディ本店</a></li>
+        <li><a href="t6.html">TSUTAYAすみや　静岡本店</a></li>
+      </ul>
+   </li>
+   <li class="drop_1row"><a href="javascript:void(0);">書店</a>
+      <ul>
+        <li><a href="t6.html">TSUTAYAすみや　静岡本店</a></li>
+        //<li><a href="y1.html">谷島屋　呉服町本店</a></li>
+      </ul>
+   </li>
+   <li class="drop_2row"><a href="javascript:void(0);">金融機関</a>
+      <ul>
+        <li><a href="s6.html">静岡銀行呉服町支店</a></li>
+        <li><a href="s7.html">清水銀行静岡支店</a></li>
+      </ul>
+   </li>
+   <li class="drop_2row"><a href="javascript:void(0);">コンビニ</a>
+      <ul>
+        <li><a href="s11.html">セブン・イレブン　静岡呉服町通り店</a></li>
+        <li><a href="h5.html">ファミリーマート　静岡呉服町店</a></li>
+      </ul>
+   </li>
+   <li class="drop_2row"><a href="javascript:void(0);">結婚総合案内</a>
+      <ul>
+        <li><a href="h8.html">ブライダル　エンポリアム　ホクレア</a></li>
+        <li><a href="h9.html">ブライダルパーク</a></li>
+      </ul>
+   </li>
+   <!--<li class="drop_1row"><a href="javascript:void(0);">携帯ショップ</a>
+      <ul>
+        <li><a href="a12.html">auショップ静岡呉服町店</a></li>
+      </ul>
+   </li>-->
+   <li class="drop_1row"><a href="javascript:void(0);">アミューズメント</a>
+      <ul>
+        <li><a href="t1.html">タイトーFステーション静岡店</a></li>
+      </ul>
+   </li>
+   <li class="drop_3row"><a href="javascript:void(0);">薬局・薬店</a>
+      <ul>
+        <li><a href="a2.html">あおば薬局　中央店</a></li>
+        <li><a href="k1.html">唐木屋薬局</a></li>
+        <li><a href="s4.html">サンドラッグ呉服町店</a></li>
+      </ul>
+   </li>
+   <li class="drop_2row"><a href="javascript:void(0);">クリニック・美容</a>
+      <ul>
+        <!--<li><a href="m8.html">静岡医師会検診センター　MEDIO</a></li>-->
+        <li><a href="m6.html">宮下内科クリニック</a></li>
+        <li><a href="h11.html">ANNEX　静岡伊勢丹　ベネファージュ　ヘアリプロ</a></li>
+      </ul>
+   </li>
+   <li class="drop_2row"><a href="javascript:void(0);">フィットネス・教育</a>
+      <ul>
+        <li><a href="w1.html">YSフィットネスクラブ呉服町</a></li>
+        <li><a href="k12.html">コペル　静岡呉服町教室</a></li>
+      </ul>
+   </li>
+   <li class="drop_3row"><a href="javascript:void(0);">ギャラリースペース</a>
+      <ul>
+        <li><a href="k5.html">ギャラリーワタナベカメラ</a></li>
+        <li><a href="k10.html">呉服町ギャラリー</a></li>
+        <li><a href="t8.html">d-labo静岡 by SURUGA bank</a></li>
+      </ul>
+   </li>
+   <li class="drop_2row"><a href="javascript:void(0);">印章店</a>
+      <ul>
+        <li><a href="k9.html">栗田印房</a></li>
+        <li><a href="y4.html">吉田印章堂</a></li>
+      </ul>
+   </li>
+   <li class="drop_1row"><a href="javascript:void(0);">不動産</a>
+      <ul>
+        <li><a href="a14.html">オチアイ</a></li>
+      </ul>
+   </li>
+   <li class="drop_1row"><a href="javascript:void(0);">クリーニング</a>
+      <ul>
+        <li><a href="h2.html">白洋舎　呉服町タワー店</a></li>
+      </ul>
+   </li>
+  </ul>
+</div>
+
+</div>
+
+</div>
+<!-- メインカラム終了 -->
+
+
+<!-- サイドバー開始 -->
+<!-- サイドバー終了 -->
+
+
+<hr class="clear">
+
+</div>
+<!-- コンテンツ終了 -->
+
+
+<!-- フッタ開始 -->
+<div id="footer">
+
+<ul class="nl">
+<li class="first"><a href="index.html">ホーム</a></li>
+<li><a href="shop.html">各店情報</a></li>
+<li><a href="map.html">マップ</a></li>
+</ul>
+
+
+<address>
+静岡県島田市祇園町8707　静岡県立島田商業高等学校
+<br/>TEL 0547-37-4167
+<br>
+Copyright　(C) 2016 GOGO呉服町. All Rights Reserved.
+</address>
+
+</div>
+<!-- フッタ終了 -->
+
+
+</div>
+<!-- ページ終了 -->
+
+</div>
+<!-- コンテナ終了 -->
+
+</body>
+</html>

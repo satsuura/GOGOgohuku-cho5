@@ -1,0 +1,145 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="ja">
+<head>
+<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+
+<meta name="keywords" content="キーワード1,キーワード2,キーワード3">
+<meta name="description" content="このページに関する簡単な説明。">
+<link rel="stylesheet" type="text/css" href="css/ta.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+
+<title>GOGO呉服町</title>
+
+</head>
+<body>
+
+<!-- コンテナ開始 -->
+<div id="container">
+
+<!-- ページ開始 -->
+<div id="page">
+
+
+<!-- ヘッダ開始 -->
+<div id="header">
+
+<p class="siteTitle"><strong><a href="index.html"><img src="head/glogo3.png" alt="GOGO呉服町" width="100%"></a></strong></p>
+
+<!-- <p class="catch"><strong>呉服町店舗情報サイト</strong></p>
+
+<ul class="nl clearFix">
+<li><a href="index.html">ホーム <span class="en">Home</span></a></li>
+<li class="active"><a href="shop.html">各店情報 <span class="en">Shop</span></a></li>
+<li><a href="map.html">マップ <span class="en">Map</span></a></li>
+</ul>
+
+<ol class="topicPath">
+<li><a href="index.html">ホーム</a></li>
+<li><a href="shop.html">各店情報</a></li>
+<li>アンジェリック　フォセッテ静岡店</li>
+</ol> -->
+
+<hr class="none">
+
+</div>
+<!-- ヘッダ終了 -->
+
+
+<!-- コンテンツ開始 -->
+<div id="content">
+
+
+<!-- メインカラム開始 -->
+<div id="main">
+
+<div class="pageTitle">
+<h1>アンジェリック　フォセッテ静岡店</h1>
+</div>
+
+<div class="section normal" id="noteSection">
+<img src="./image/28_angelique1.jpg" width="300" height="300" align="center">
+<br><br>
+<img src="image/ver_separator1.gif" width="300" height="4">
+<h3>お気に入りのデザインがきっと見つかる</h3>
+<img src="image/ver_separator1.gif" width="300" height="4">
+<p align="center">
+<p>普段使う分にも、重ね着けしやすいタイプが主流となっている。当店オリジナルデザインは４５００種。世界にひとつだけのリングを作れる店で有名。</p>
+<img src="image/ver_separator1.gif" width="300" height="4">
+
+<p><br>住所：〒４２０－００３１　静岡市葵区呉服町２－５－９</p>
+<p>営業時間： AM １０：３０ ～ PM ８：００</p>
+<p>定休日：無休（年末年始のみ休み）</p>
+<p>TEL：０５４－２７５－３２２２</p>
+<p>URL：<a herf="http://www.7tairiku.co.jp/">http://www.7tairiku.co.jp/</a></p>
+<div class="shop"><img src="image/ruuto.png"><h2><p id="ten">少々お待ちください…</p></h2></div>
+<!-- リンクを表示する -->
+<script language="JavaScript">
+var u="";
+if( navigator.geolocation ){
+    navigator.geolocation.watchPosition(
+    function onSuccess( position ){
+        var lat=position.coords.latitude;
+        var lng=position.coords.longitude;
+        document.getElementById("ten").innerHTML="<a href='http://maps.google.com/maps?saddr="+lat+","+lng+"&daddr=静岡市葵区呉服町２－５－９アンジェリックフォセッテ静岡店&dirflg=w' style='text-decoration:none;'>　　ルートを見る　　</a>";}, 
+    function onError(error){
+        var errorMessage = {
+            0: "原因不明のエラーが発生しました…。" ,
+            1: "位置情報の取得が許可されませんでした…。" ,
+            2: "電波状況などで位置情報が取得できませんでした…。" ,
+            3: "位置情報の取得に時間がかかり過ぎてタイムアウトしました…。" ,};
+        alert(errorMessage[error.code]);
+        document.getElementById("ten").innerHTML="ルート表示できません";},
+        );}
+else{}
+</script>
+<!--終了-->
+<img src="image/ver_separator1.gif" width="300" height="4">
+<br><br><br>
+<div align="right"><a href="shop.html">前のページに戻る</a></div>
+</div>
+
+</div>
+<!-- メインカラム終了 -->
+
+
+<!-- サイドバー開始 -->
+<!-- サイドバー終了 -->
+
+
+<hr class="clear">
+
+</div>
+<!-- コンテンツ終了 -->
+
+
+<!-- フッタ開始 -->
+<div id="footer">
+
+<ul class="nl">
+<li class="first"><a href="index.html">ホーム</a></li>
+<li><a href="shop.html">各店情報</a></li>
+<li><a href="map.html">マップ</a></li>
+</ul>
+
+
+<address>
+静岡県島田市祇園町8707　静岡県立島田商業高等学校 TEL 0547-37-4167
+<br>
+Copyright (C) 2016 GOGO呉服町. All Rights Reserved.
+</address>
+
+</div>
+<!-- フッタ終了 -->
+
+
+</div>
+<!-- ページ終了 -->
+
+</div>
+<!-- コンテナ終了 -->
+
+</body>
+</html>

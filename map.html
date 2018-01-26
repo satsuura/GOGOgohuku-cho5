@@ -1,0 +1,73 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="Content-Security-Policy" content="default-src *; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
+    <link rel="stylesheet" href="components/loader.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/ta.css">
+    <script src="components/loader.js"></script>
+    <script src="js/map.js"></script>
+</head>
+<body>
+<div id="header"><p class="siteTitle"><a href="index.html"><img src="head/glogo3.png" width="100%" alt="GOGO呉服町"></a></p></div>
+<hr/><a>地図の下のアイコンをタップすると、ジャンルごとにお店の位置が表示されます。</a><hr/>
+<div id="map" style="width:100%; height:60%">
+    <script type="text/javascript" src="js/map.js" charset="utf-8"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCNZDc9vM2QSRKKzTsCWyp2O6cLRMPN_VM&callback=initMap" async defer></script>
+</div>
+<br />
+<div class="icon">
+    <div><a onclick="initMap(1)"><img src="icon/fassyon.png">ファッション</a></div>
+    <div><a onclick="initMap(2)"><img src="icon/houseki.png">宝石・時計</a></div>
+    <div><a onclick="initMap(3)"><img src="icon/kaban.png">カバン</a></div>
+    <div><a onclick="initMap(4)"><img src="icon/syokuhin.png">食品関連</a></div>
+    <div><a onclick="initMap(5)"><img src="icon/kosume.png">コスメ・アロマ</a></div>
+    <div><a onclick="initMap(6)"><img src="icon/syoten.png">書店</a></div>
+    <div><a onclick="initMap(7)"><img src="icon/konbini.png">コンビニ</a></div>
+    <div><a onclick="initMap(8)"><img src="icon/amyu-zument.png">アミューズメント</a></div>
+    <div><a onclick="initMap(9)"><img src="icon/kurinikku.png">クリニック</a></div>
+    <div><a onclick="initMap(10)"><img src="icon/kyouiku.png">教育</a></div>
+    <div><a onclick="initMap(11)"><img src="icon/insyoudou.png">印章店</a></div>
+    <div><a onclick="initMap(12)"><img src="icon/kuri-ningu.png">クリーニング</a></div>
+</div>
+<div class="icon2">
+    <div><a onclick="initMap(13)"><img src="icon/wasou.png">和装</a></div>
+    <div><a onclick="initMap(14)"><img src="icon/megane.png">メガネ</a></div>
+    <div><a onclick="initMap(15)"><img src="icon/insyokuten.png">飲食店</a></div>
+    <div><a onclick="initMap(16)"><img src="icon/seikatuzakka.png">生活雑貨</a></div>
+    <div><a onclick="initMap(17)"><img src="icon/ongaku.png">音楽・楽器</a></div>
+    <div><a onclick="initMap(18)"><img src="icon/ginkou.png">金融機関</a></div>
+    <div><a onclick="initMap(19)"><img src="icon/kekkon.png">結婚総合案内</a></div>
+    <div><a onclick="initMap(20)"><img src="icon/yakkyoku.png">薬局・薬店</a></div>
+    <div><a onclick="initMap(21)"><img src="icon/fittonesu.png">フィットネス</a></div>
+    <div><a onclick="initMap(22)"><img src="icon/gyarari-.png">ギャラリースペース</a></div>
+    <div><a onclick="initMap(23)"><img src="icon/hudouya.png">不動屋</a></div>
+    <div><a onclick="initMap(24)"><img src="icon/biyou.png">美容</a></div>
+</div>
+
+
+<!-- フッタ開始 -->
+<div id="footer">
+<a href="a.html">ひとつ戻る</a><br />
+<ul class="nl">
+<li class="first"><a href="index.html">ホーム</a></li>
+<li><a href="shop.html">各店情報</a></li>
+<li><a href="map.html">マップ</a></li>
+</ul>
+
+
+<address>
+静岡県島田市祇園町8707　静岡県立島田商業高等学校
+<br/>TEL 0547-37-4167
+<br>
+Copyright　(C) 2016 GOGO呉服町. All Rights Reserved.
+</address>
+
+</div>
+<!-- フッタ終了 -->
+    
+</body>
+</html>
