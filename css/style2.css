@@ -1,0 +1,75 @@
+/* This is a CSS file */
+
+
+
+.hicon{
+     display: inline;
+}
+
+
+
+.mise{
+    float: left;
+    margin-top: 20px;
+    margin-left: 5%;
+    margin-bottom: 10px;
+}
+
+.map{
+    float: left;
+    margin-top: 20px;
+    margin-left: 17%;
+    margin-bottom: 10px;
+}
+
+.vr{
+    float: right;
+    margin-top: 20px;
+    margin-right: 10%;
+    margin-bottom: 10px;
+}
+
+.toi{
+    float: left;
+    margin-top: 20px;
+    margin-left: 5%;
+    margin-bottom: 20px;
+}
+
+.aed{
+    float: left;
+    margin-top: 20px;
+    margin-left: 17%;
+    margin-bottom: 20px;
+}
+
+.car{
+    float: right;
+    margin-top: 20px;
+    margin-right: 10%;
+    margin-bottom: 20px;
+}
+
+
+
+#footer {
+
+  clear:left;
+  font-size:150%;
+}
+
+.clearfix:after {
+
+    content: "";
+    display: block;
+    height: 0;
+    visibility: hidden;
+    clear: both;
+}
+
+.clearfix {display: inline-table;}
+
+html .clearfix {height: 1%;}
+.clearfix {display: block;
+}
+

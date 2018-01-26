@@ -1,0 +1,137 @@
+@cherset "utf-8";
+
+#menu_box {
+   margin: 0 0 20px 0; 
+   border:#e5e4e6 1px solid;
+}
+.menu {
+   list-style:none;
+   padding:0;
+   margin:0;
+   overflow: hidden;
+   position: relative;
+}
+.menu li {
+   width:300;/*メニューの幅*/
+   /*logo3*//*background:#88b031;
+   /*logo4*//*background:#ADC653;
+   /*呉服町HP*/background:#8EC21F;
+   /*klogo*//*background:#696969;*/
+   position: relative;
+   height:50px;/*メニューの高さ*/
+}
+.menu li a {
+   text-decoration:none;
+   font-size:12px;
+   display:block;
+   padding:0 10px;
+   height:49px;
+   line-height:49px;
+   border-bottom:1px solid #fff;
+   /*logo3*//*color:#f3f3f3;
+   /*logo4*/color:#5B6F25;
+   /*klogo*//*color:#ffffff;*/
+   font-weight:bold;
+}
+.menu li ul {
+   margin:0;
+   padding:0;
+}
+.menu li ul li {
+    /*logo3*//*background:#8CC321;
+   /*logo4*/background:#dcd3b2;
+   /*klogo*//*background:#c0c0c0;*/
+}
+.menu li ul li a {
+    /*logo3*//*color:#607C23;
+   /*logo4*/color:#9e9478;
+   /*klogo*//*color:#696969;*/
+}
+
+.menu .drop_1row:hover {/*サブメニューが1つのとき*/
+   height:100px;
+}
+.menu .drop_2row:hover {/*サブメニューが2つのとき*/
+   height:150px;
+}
+.menu .drop_3row:hover {/*サブメニューが3つのとき*/
+   height:200px;
+}
+.menu .drop_4row:hover {/*サブメニューが4つのとき*/
+   height:250px;
+}
+.menu .drop_5row:hover {/*サブメニューが5つのとき*/
+   height:300px;
+}
+.menu .drop_6row:hover {/*サブメニューが6つのとき*/
+   height:350px;
+}
+.menu .drop_7row:hover {/*サブメニューが7つのとき*/
+   height:350px;
+}
+.menu .drop_8row:hover {/*サブメニューが8つのとき*/
+   height:450px;
+}
+.menu .drop_9row:hover {/*サブメニューが9つのとき*/
+   height:350px;
+}
+.menu .drop_10row:hover {/*サブメニューが10このとき*/
+   height:550px;
+}
+.menu .drop_11row:hover {/*サブメニューが11このとき*/
+   height:600px;
+}
+.menu .drop_12row:hover {/*サブメニューが12つのとき*/
+   height:350px;
+}
+.menu .drop_13row:hover {/*サブメニューが13このとき*/
+   height:700px;
+}
+.menu .drop_14row:hover {/*サブメニューが14このとき*/
+   height:750px;
+}
+.menu .drop_15row:hover {/*サブメニューが15このとき*/
+   height:800px;
+}
+.menu .drop_16row:hover {/*サブメニューが16このとき*/
+   height:850px;
+}
+.menu *{/*アニメーション*/
+   -moz-transition: .5s;
+   -webkit-transition: .5s;
+   -o-transition: .5s;
+   -ms-transition: .5s;
+   transition: .5s;
+}
+
+
+.button { 
+   border-bottom:1px solid #fff;
+   width:300;/*メニューの幅*/
+   background:#ADC653;
+   position: relative;
+   height:50px;/*メニューの高さ*/
+   text-decoration:none;
+   font-size:12px;
+   display:block;
+   padding:0 10px;
+   height:49px;
+   line-height:49px;
+   font-weight:bold;
+}
+.button::before,
+.button::after {
+    position: absolute;
+	z-index: -1;
+	display: block;
+	content: '';
+}
+.button,
+.button::before,
+.button::after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition: all .3s;
+	transition: all .3s;
+}
